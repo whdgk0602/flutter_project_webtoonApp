@@ -1,16 +1,25 @@
-# webtoon
+# 📚 Webtoon Finder 앱
 
-A new Flutter project.
+네이버 웹툰 정보를 기반으로 한 간단한 웹툰 탐색 앱입니다.  
+사용자는 앱 내에서 웹툰을 즐겨찾기하고, 기본 정보를 확인하고, 원본 웹툰 페이지(네이버 웹툰)로 바로 이동할 수 있습니다.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ 주요 기능
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ **웹툰 목록 조회** – 네이버 웹툰 API를 활용하여 최신 웹툰 리스트 표시  
+- ⭐ **즐겨찾기 기능** – 좋아하는 웹툰을 따로 모아보기  
+- 📖 **간략한 정보 확인** – 제목, 썸네일, 작가, 요일 등의 정보 제공  
+- 🔗 **클릭 시 이동** – 네이버 웹툰 원본 페이지로 연결  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 사용 기술
+
+- **Flutter**  
+- **Dart**  
+- **Riverpod (상태관리)**  
+- **HTTP 패키지** – 네이버 웹툰 데이터 요청  
+- **네이버 웹툰 공식 웹사이트**에서 데이터 파싱 사용  
+
+---
